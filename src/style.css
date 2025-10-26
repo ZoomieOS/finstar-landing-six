@@ -10,36 +10,36 @@
 @theme {
     --font-display: "Montserrat", sans-serif;
 
-    --color-primary: rgba(0, 168, 116, 1);
+    --color-primary: rgba(0, 0, 0, 1);
 
-    --color-header-btn: rgba(43, 62, 2, 1);
+    --color-header-btn: rgba(106, 106, 106, 1);
 
-    --color-heading: rgba(54, 129, 14, 1);
-    --color-hero-btn: rgba(91, 128, 12, 1);
+    --color-heading: rgba(0, 0, 0, 1);
+    --color-hero-btn: rgba(0, 0, 0, 1);
 
     --color-background-card: rgba(239, 249, 255, 1);
 
-    --color-cards-advantages: rgba(251, 247, 240, 1);
-    --color-advantages-subheading: rgba(0, 114, 208, 1);
+    --color-cards-advantages: rgba(247, 247, 247, 1);
+    --color-advantages-subheading: rgba(180, 138, 63, 1);
 
-    --color-why-us-subheading: rgba(0, 114, 208, 1);
+    --color-why-us-subheading: rgba(202, 131, 8, 1);
     --color-why-us-left: rgba(250, 255, 228, 1);
     --color-why-us-right: rgba(255, 251, 228, 1);
-    --color-why-us-button: rgba(80, 101, 0, 1);
+    --color-why-us-button: rgba(0, 0, 0, 1);
 
     --color-card-two-special-text: rgba(127, 17, 0, 1);
     --color-card-three-special-text: rgba(0, 127, 88, 1);
     --color-card-four-special-text: rgba(202, 131, 8, 1);
 
-    --color-card-one: rgba(249, 249, 249, 1);
-    --color-card-two: rgba(255, 253, 229, 1);
-    --color-card-three: rgba(248, 248, 248, 1);
-    --color-card-four: rgba(255, 253, 229, 1);
+    --color-card-one: rgba(244, 244, 255, 1);
+    --color-card-two: rgba(244, 244, 255, 1);
+    --color-card-three: rgba(244, 244, 255, 1);
+    --color-card-four: rgba(244, 244, 255, 1);
 
-    --color-contact-form: rgba(141, 141, 22, 1);
-    --color-contact-form-shape: rgba(111, 111, 0, 1);
+    --color-contact-form: rgba(70, 70, 70, 1);
+    --color-contact-form-shape: rgba(35, 35, 35, 1);
 
-    --color-footer: rgba(33, 33, 0, 1);
+    --color-footer: rgba(31, 31, 31, 1);
 }
 
 @layer utilities {
@@ -55,7 +55,7 @@
     .bg-glow-hero {
         top: -90%;
         left: -25%;
-        background: radial-gradient(50% 50% at 50% 50%, rgba(215, 254, 200, 0.7) 0%, rgba(215, 254, 200, 0) 100%);
+        background: radial-gradient(50% 50% at 50% 50%, rgba(179, 220, 239, 1) 0%, rgba(179, 220, 239, 0) 100%);
     }
 
     .bg-glow-advantages {
@@ -63,7 +63,7 @@
         height: 500px;
         top: 9%;
         left: -17%;
-        background: radial-gradient(50% 50% at 50% 50%, rgba(215, 254, 200, 1) 0%, rgba(215, 254, 200, 0) 100%);
+        background: radial-gradient(50% 50% at 50% 50%, rgba(157, 211, 255, 0.4) 0%, rgba(157, 211, 255, 0) 100%);
     }
 
     .bg-glow-invests {
@@ -71,7 +71,7 @@
         height: 200px;
         bottom: 10%;
         right: 4%;
-        background: radial-gradient(50% 50% at 50% 50%, rgba(215, 254, 200, 0.4) 0%, rgba(215, 254, 200, 0) 100%);
+        background: radial-gradient(50% 50% at 50% 50%, rgba(255, 234, 157, 0.4) 0%, rgba(255, 234, 157, 0) 100%);
     }
 
     .section-spacing {
